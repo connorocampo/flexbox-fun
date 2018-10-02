@@ -134,6 +134,12 @@ header {
   transition: all 0.5s ease;
 }
 
+.square-flex .price {
+  display: inline-block;
+  padding: 0;
+  margin-left: 190px;
+}
+
 @media screen and (max-width: 650px) {
   .flex-container {
     flex-wrap: wrap;
