@@ -94,10 +94,13 @@ header {
   padding: 60px;
 }
 
+.flex-container h2, .flex-container p {
+  margin: 15px;
+}
+
 .flex-container p {
   font-size: 18px;
   line-height: 28px;
-  margin: 15px;
 }
 
 .square-flex {
