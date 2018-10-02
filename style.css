@@ -233,6 +233,10 @@ header {
 }
 
 /* email section */
+#email {
+  padding: 10px;
+}
+
 .email-flex {
   display: flex;
   justify-content: center;
@@ -247,10 +251,11 @@ header {
   font-size: 20px;
 }
 
-#email {
-  padding: 10px 20px;
-}
-
 #submit {
   padding: 10px 20px;
+  margin-left: 5px;
+  border: 1px solid burlywood;
+  background: burlywood;
+  color: #fff;
+  font-size: 16px;
 }
