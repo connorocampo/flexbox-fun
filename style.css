@@ -141,7 +141,8 @@ header {
 @media screen and (max-width: 650px) {
   .flex-container {
     flex-wrap: wrap;
-    padding: 10px;
+    padding: 0;
+    margin: 30px;
   }
 }
 
@@ -175,28 +176,29 @@ header {
 @media screen and (max-width: 900px) {
   .rectangle-flex {
     flex-wrap: wrap;
+    margin: 30px 30px 0 30px;
   }
 
   #rectangle .rectangle {
-    margin: auto;
+    margin: 50px;
   }
 
   .rectangle-text {
     width: 100%;
-    margin: 50px 25px;
+    margin: 50px 30px;
   }
 }
 
 @media screen and (max-width: 700px) {
   #rectangle .rectangle {
-    height: 250px;
-    width: 350px;
-    margin: auto;
+    height: 240px;
+    width: 340px;
+    margin: 0px;
   }
 
   .rectangle-text {
     width: 100%;
-    margin: 50px 25px;
+    margin: 50px 0px;
   }
 }
 
@@ -210,7 +212,8 @@ header {
 
 .circle-flex {
   display: flex;
-  padding: 60px;
+  margin: 30px;
+  padding: 0;
 }
 
 .profile {
@@ -221,15 +224,13 @@ header {
 }
 
 .circle-flex h2 {
-  margin-top: 60px;
+  margin: 60px 0 30px 0;
 }
 
 .circle-flex p {
-  margin: 15px 25px 0 25px;
   font-size: 20px;
   text-align: justify;
   line-height: 30px;
-
 }
 
 @media screen and (max-width: 890px) {
