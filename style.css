@@ -178,13 +178,25 @@ header {
   }
 
   #rectangle .rectangle {
+    margin: auto;
+  }
+
+  .rectangle-text {
+    width: 100%;
+    margin: 50px 25px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #rectangle .rectangle {
     height: 250px;
     width: 350px;
     margin: auto;
   }
 
   .rectangle-text {
-    width: 80%;
+    width: 100%;
+    margin: 50px 25px;
   }
 }
 
