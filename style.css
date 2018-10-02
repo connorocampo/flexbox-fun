@@ -179,6 +179,12 @@ header {
     flex-wrap: wrap;
   }
 
+  #rectangle .rectangle {
+    height: 250px;
+    width: 350px;
+    margin: auto;
+  }
+
   .rectangle-text {
     width: 80%;
   }
