@@ -38,13 +38,11 @@ header {
 
 .leftnav {
   flex-grow: 1;
-  border: 1px solid black;
   font-size: 26px;
   margin-left: 30px;
 }
 
 .rightnav {
-  border: 1px solid black;
   margin: 0 15px;
   font-size: 22px;
 }
