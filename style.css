@@ -186,8 +186,8 @@ header {
 
 /* circle section */
 .circle {
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
   border: 2px solid burlywood;
   border-radius: 50%;
 }
@@ -205,7 +205,7 @@ header {
 }
 
 .circle-flex h2 {
-  margin-top: 30px;
+  margin-top: 60px;
 }
 
 .circle-flex p {
