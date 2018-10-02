@@ -172,7 +172,7 @@ header {
   line-height: 30px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .rectangle-flex {
     flex-wrap: wrap;
   }
