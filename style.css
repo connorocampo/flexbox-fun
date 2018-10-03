@@ -235,7 +235,6 @@ header {
   width: 250px;
   border: 2px solid burlywood;
   border-radius: 50%;
-  margin-top: 0;
 }
 
 .circle-flex {
@@ -243,7 +242,7 @@ header {
   margin: 50px;
 }
 
-.profile {
+#circle .profile {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -251,6 +250,10 @@ header {
   border: 1px solid pink;
   height: 800px;
   width: 400px;
+}
+
+.circle-flex img {
+  /* insert margin here for individual lengh cards */
 }
 
 .circle-flex h2 {
