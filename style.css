@@ -138,9 +138,25 @@ header {
   margin-left: 195px;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
   #square {
     padding: 30px;
+  }
+
+  .square {
+    height: 320px;
+    width: 320px;
+    border: 2px solid burlywood;
+  }
+
+  .square img {
+    height: 220px;
+    width: 320px;
+  }
+
+  .square-flex .price {
+    display: inline-block;
+    margin: 0 0 0px 160px;
   }
 
   .flex-container {
