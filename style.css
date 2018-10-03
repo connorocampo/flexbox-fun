@@ -310,6 +310,7 @@ header {
   background: burlywood;
   color: #fff;
   font-size: 16px;
+  -webkit-appearance: none;
 }
 
 @media screen and (max-width: 700px) {
@@ -320,5 +321,9 @@ header {
 
   #email-input {
     width: 200px;
+  }
+
+  #submit {
+    -webkit-appearance: none;
   }
 }
