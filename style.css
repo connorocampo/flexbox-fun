@@ -139,6 +139,10 @@ header {
 }
 
 @media screen and (max-width: 650px) {
+  #square {
+    padding: 30px;
+  }
+
   .flex-container {
     flex-wrap: wrap;
     padding: 0;
@@ -193,10 +197,13 @@ header {
 }
 
 @media screen and (max-width: 700px) {
+  #rectangle {
+    padding: 30px;
+  }
+
   #rectangle .rectangle {
     height: 240px;
     width: 340px;
-    margin: 0px;
   }
 
   .rectangle-text {
@@ -237,6 +244,10 @@ header {
 }
 
 @media screen and (max-width: 890px) {
+  #circle {
+    padding: 30px;
+  }
+
   .circle-flex {
     flex-wrap: wrap;
     margin: 0;
