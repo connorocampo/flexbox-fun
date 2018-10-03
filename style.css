@@ -165,7 +165,7 @@ header {
   }
 
   .flex-container h2, .flex-container p {
-    margin: 30px;
+    margin: 15px;
   }
 }
 
@@ -271,6 +271,10 @@ header {
 
   .profile {
     margin-top: 50px;
+  }
+
+  .circle-flex h2 {
+    margin: 60px 0 15px 0;
   }
 }
 
