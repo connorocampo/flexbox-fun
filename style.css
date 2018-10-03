@@ -183,6 +183,7 @@ header {
 
 .rectangle-flex {
   display: flex;
+  justify-content: center;
 }
 
 .rectangle-text {
