@@ -72,15 +72,18 @@ header {
 
 /* hero */
 #hero {
-  height: auto;
+  background-image: url('https://via.placeholder.com/1080x400');
+  background-position: center;
+  height: 400px;
+  width: 100%;
 }
 
-.flex-hero {
+/* .flex-hero {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .shape {
   margin: 15px;
