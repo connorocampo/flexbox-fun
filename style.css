@@ -154,6 +154,12 @@ nav a p {
   height: auto;
 }
 
+@media screen and (max-width: 700px) {
+    .main {
+        padding: 0;
+    }
+}
+
 /* hero */
 #hero {
   background-image: url('https://static.wixstatic.com/media/7a7d69_4fe4c9b450814d1685200c645b4c3842~mv2_d_1600_1200_s_2.jpg/v1/fill/w_780,h_631,al_c,q_85,usm_0.66_1.00_0.01/7a7d69_4fe4c9b450814d1685200c645b4c3842~mv2_d_1600_1200_s_2.webp');
