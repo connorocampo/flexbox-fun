@@ -420,7 +420,7 @@ nav a p {
 
 /* contact section */
 #contact {
-    height: 400px;
+    height: 345px;
     background: #7CCDEA;
     padding: 60px;
 }
@@ -476,12 +476,17 @@ li a i {
 }
 
 #email {
-  padding: 10px;
+    background: #0DA8E0;
+    color: #fff;
+    width: 870px;
+    margin: 50px auto;
+    border-radius: 45px;
+    padding: 20px;
 }
 
 .email-flex {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -491,18 +496,20 @@ li a i {
 
 .email-flex p {
   font-size: 20px;
+  font-weight: bold;
   margin: 20px 0;
 }
 
 #email-input {
   padding: 10px;
   width: 250px;
+  height: 24px;
   border-radius: 50px;
 }
 
 #submit {
   padding: 10px 20px;
-  margin-left: 5px;
+  margin-left: 20px;
   border: 1px solid burlywood;
   background: burlywood;
   color: #fff;
