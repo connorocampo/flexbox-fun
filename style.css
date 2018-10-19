@@ -104,6 +104,7 @@ header {
   margin-right: 5px;
   font-size: 22px;
   font-family: courier;
+  font-weight: bold;
 }
 
 .rightnav  a {
@@ -112,10 +113,18 @@ header {
     border: 2px solid #7CCDEA;
 }
 
+.active {
+    border: 2px solid #F0181B !important;
+    border-radius: 10px;
+    background: rgb(252,249,93);
+    color: #F0181B;
+    font-weight: bold;
+}
+
 .rightnav a:hover {
     border: 2px solid #F0181B;
     border-radius: 10px;
-    background: #F9D356;
+    background: rgb(252,249,93);
     color: #F0181B;
     font-weight: bold;
     transition: 0.7s;
