@@ -429,7 +429,7 @@ nav a p {
 
 /* contact section */
 #contact {
-    height: 345px;
+    height: 675px;
     background: #7CCDEA;
     padding: 60px;
 }
@@ -528,6 +528,13 @@ li a i {
   color: #F0181B;
   font-size: 16px;
   -webkit-appearance: none;
+}
+
+#contact img {
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%, -55%);
 }
 
 @media screen and (max-width: 700px) {
