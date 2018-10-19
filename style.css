@@ -34,23 +34,15 @@ section {
     float: right;
     display: block;
     text-align: center;
-    padding: 14px 16px;
+    padding: 25px 25px;
     text-decoration: none;
     font-size: 17px;
 }
 
-.navbar ul {
-    padding: 8px 0 0 0;
-    list-style: none;
-}
-
-.navbar a:hover {
-    background: #ddd;
-    color: #000;
-}
-
-.navbar img {
+.navbar-nav img {
     height: 70px;
+    margin-left: 30px;
+    margin-top: 5px;
 }
 
 .side-nav {
