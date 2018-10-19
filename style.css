@@ -427,9 +427,9 @@ nav a p {
 
 #contact .container {
     background: #0DA8E0;
-    border-radius: 40px;
-    width: 800px;
-    height: 150px;
+    border-radius: 45px;
+    width: 975px;
+    height: 200px;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -444,13 +444,13 @@ nav a p {
 }
 
 .container ul li {
-    margin: 10px;
+    margin: 25px;
 }
 
 .container .list-title {
     font-family: courier;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
     text-transform: uppercase;
     color: #F3EB5B;
     align-self: flex-start;
@@ -459,6 +459,20 @@ nav a p {
 .container ul p {
     color: #fff;
     line-height: 22px;
+}
+
+li #social-media {
+    display: flex;
+    flex-direction: column !important;
+}
+
+li a i {
+    font-size: 16px;
+    background: #fff;
+    color: #698491;
+    padding: 8px;
+    border-radius: 50%;
+    margin-top: 12px;
 }
 
 #email {
