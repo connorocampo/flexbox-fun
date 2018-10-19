@@ -162,7 +162,7 @@ nav a p {
 
 /* hero */
 #hero {
-  background-image: url('../img/hero.png');
+  background-image: url('https://raw.githubusercontent.com/connorocampo/flexbox-fun/master/img/hero.png');
   background-position: center;
   height: 400px;
 }
