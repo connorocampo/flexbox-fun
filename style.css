@@ -478,7 +478,7 @@ li a i {
 #email {
     background: #0DA8E0;
     color: #fff;
-    width: 870px;
+    width: 910px;
     margin: 50px auto;
     border-radius: 45px;
     padding: 20px;
@@ -534,4 +534,14 @@ li a i {
   #submit {
     -webkit-appearance: none;
   }
+}
+
+/* footer */
+footer {
+    background: #FCF95D;
+    color: #F0181B;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+
 }
