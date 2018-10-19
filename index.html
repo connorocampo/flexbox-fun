@@ -9,6 +9,30 @@
 </head>
 <body>
   <!-- header -->
+  <nav class="navbar"><!-- hamburger menu -->
+      <span class="open-slide">
+          <a href="#" onClick="openSlideMenu()">
+              <svg width="30" height="30">
+                  <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+                  <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+                  <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+              </svg>
+          </a>
+      </span>
+      <ul class="navbar-nav">
+          <img src="https://static.wixstatic.com/media/7a7d69_d0955fc201114558839dcdac4576ae8e~mv2_d_3600_3600_s_4_2.png/v1/fill/w_336,h_336,al_c,q_80,usm_0.66_1.00_0.01/7a7d69_d0955fc201114558839dcdac4576ae8e~mv2_d_3600_3600_s_4_2.webp">
+      </ul>
+  </nav>
+
+    <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onClick="closeSlideMenu()">&times;</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Menu</a>
+        <a href="#">Order Online</a>
+        <a href="#">Contact</a>
+    </div><!--- end hamburger menu -->
+
   <header class="fixednav">
     <nav class="leftnav">
         <a href="#">
@@ -155,5 +179,17 @@
 </div><!-- email section ends -->
 
 </div><!-- main end -->
+
+<script>
+    function openSlideMenu(){
+        document.getElementById('side-menu').style.width= '250px';
+        document.getElementById('main-hamburger').style.width = '250px';
+    }
+
+    function closeSlideMenu(){
+        document.getElementById('side-menu').style.width= '0px';
+        document.getElementById('main-hamburger').style.width = '0px';
+    }
+</script>
 </body>
 </html>

@@ -23,6 +23,71 @@ section {
   padding: 60px 0;
 }
 
+/* hamburger menu */
+.navbar {
+    background: #7CCDEA;
+    overflow: hidden;
+    height: 80px;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar ul {
+    padding: 8px 0 0 0;
+    list-style: none;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: #000;
+}
+
+.navbar img {
+    height: 70px;
+}
+
+.side-nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background: #111;
+    opacity: 0.9;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.side-nav a {
+    padding: 10px 10px 10px 30px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #ccc;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-nav a:hover {
+    color: #fff;
+}
+
+.side-nav .btn-close {
+    position: absolute;
+    top: 0;
+    right: 22px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
 /* nav */
 header {
   height: 80px;
@@ -46,7 +111,6 @@ header {
   margin: 0 15px;
   font-size: 22px;
   font-family: courier;
-
 }
 
 .leftnav a {
@@ -66,16 +130,28 @@ nav a p {
     font-weight: bold;
 }
 
+@media screen and (min-width: 701px) {
+    .navbar {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 700px) {
+    header {
+        height: 0;
+    }
+
   .leftnav, .rightnav {
-    margin: 5px;
+    display: none;
   }
+}
+  /*
   nav a p {
       display: none;
   }
   .rightnav {
       display: ;
-  }
+  } */
 }
 
 /* main */
