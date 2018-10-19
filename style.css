@@ -25,9 +25,9 @@ section {
 
 /* nav */
 header {
-  height: 50px;
+  height: 80px;
   width: 100%;
-  background: burlywood;
+  background: #7CCDEA;
 }
 
 .fixednav {
@@ -45,11 +45,36 @@ header {
 .rightnav {
   margin: 0 15px;
   font-size: 22px;
+  font-family: courier;
+
 }
 
-@media screen and (max-width: 650px) {
+.leftnav a {
+    display: flex;
+    align-items: center;
+}
+
+nav a img {
+    height: 70px;
+    /* filter: brightness(0) invert(1); */
+}
+
+nav a p {
+    display: inline;
+    margin-left: 15px;
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
   .leftnav, .rightnav {
     margin: 5px;
+  }
+  nav a p {
+      display: none;
+  }
+  .rightnav {
+      display: ;
   }
 }
 
@@ -72,19 +97,23 @@ header {
 
 /* hero */
 #hero {
-  background-image: url('https://via.placeholder.com/1080x400');
+  background-image: url('https://static.wixstatic.com/media/7a7d69_4fe4c9b450814d1685200c645b4c3842~mv2_d_1600_1200_s_2.jpg/v1/fill/w_780,h_631,al_c,q_85,usm_0.66_1.00_0.01/7a7d69_4fe4c9b450814d1685200c645b4c3842~mv2_d_1600_1200_s_2.webp');
   background-position: center;
+  /* background-size: cover; */
   height: 400px;
-  width: 100%;
 }
 
-/* .flex-hero {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-} */
+#hero a {
+    display: block;
+    color: #fff;
+    font-family: courier;
+    font-size: 50px;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 10%;
+}
 
+/* grid layout */
 .shape {
   margin: 15px;
 }
