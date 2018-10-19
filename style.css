@@ -100,9 +100,25 @@ header {
 }
 
 .rightnav {
-  margin: 0 15px;
+  /* margin: 0 15px;*/
+  margin-right: 5px;
   font-size: 22px;
   font-family: courier;
+}
+
+.rightnav  a {
+    padding: 8px 18px;
+    margin: 0 4px;
+    border: 2px solid #7CCDEA;
+}
+
+.rightnav a:hover {
+    border: 2px solid #F0181B;
+    border-radius: 10px;
+    background: #F9D356;
+    color: #F0181B;
+    font-weight: bold;
+    transition: 0.7s;
 }
 
 .leftnav a {
@@ -169,19 +185,32 @@ nav a p {
 
 #hero a {
     display: block;
-    background: rgba(204, 204, 204, 0.5);
-    color: #fff;
+    border: 6px solid #F0181B;
+    border-radius: 50px;
+    background: rgb(252,249,93);
+    color: #F0181B;
     width: 375px;
     font-family: courier;
     font-size: 50px;
-    text-align: left;
+    font-weight: bold;
+    text-align: center;
     margin-top: 5%;
-    margin-left: 10%;
+    margin-left: 20%;
     padding: 10px;
+    text-transform: uppercase;
 }
 
 #hero a:hover {
-    background: rgba(204, 204, 204, 0.7);
+    background: #698491;
+    border: 6px solid rgb(109,165,211);
+    color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+    #hero a {
+        width: 305px;
+        margin: 35px auto;
+    }
 }
 
 /* grid layout */
