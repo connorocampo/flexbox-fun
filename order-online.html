@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/png" href="https://raw.githubusercontent.com/connorocampo/flexbox-fun/master/img/logo.png"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Charm City Burger Co. | Order Online</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" async>
+</head>
+<body>
+  <!-- header -->
+  <nav class="navbar"><!-- hamburger menu -->
+      <span class="open-slide">
+          <a href="#" onClick="openSlideMenu()">
+              <svg width="30" height="30">
+                  <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+                  <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+                  <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+              </svg>
+          </a>
+      </span>
+      <ul class="navbar-nav">
+          <img src="https://raw.githubusercontent.com/connorocampo/flexbox-fun/master/img/logo.png">
+      </ul>
+  </nav>
+
+    <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onClick="closeSlideMenu()">&times;</a>
+        <a href="index.html" onClick="closeSlideMenu()">Home</a>
+        <a href="about.html" onClick="closeSlideMenu()">About</a>
+        <a href="menu.html" onClick="closeSlideMenu()">Menu</a>
+        <a href="order-online.html" onClick="closeSlideMenu()">Order Online</a>
+        <a href="contact.html" onClick="closeSlideMenu()">Contact</a>
+    </div><!--- end hamburger menu -->
+
+  <header class="fixednav">
+    <nav class="leftnav">
+        <a href="#home">
+            <img src="https://raw.githubusercontent.com/connorocampo/flexbox-fun/master/img/logo.png">
+            <p>Charm City Burger Co.</p>
+        </a>
+    </nav>
+    <nav class="rightnav">
+        <a href="index.html" class="rightnav active">Home</a>
+        <a href="about.html" class="rightnav">About</a>
+        <a href="menu.html" class="rightnav">Menu</a>
+        <a href="order-online.html" class="rightnav">Order Online</a>
+        <a href="contact.html" class="rightnav">Contact</a>
+    </nav>
+</header><!-- end header -->
