@@ -427,7 +427,7 @@ nav a p {
 
 /* contact section */
 #contact {
-    height: 475px;
+    height: 725px;
     background: #7CCDEA;
     padding: 60px;
 }
@@ -521,7 +521,7 @@ li a i {
   background: burlywood;
   color: #fff;
   border: 6px solid #F0181B;
-  border-radius: 50px;
+  border-radius: 45px;
   background: rgb(252,249,93);
   color: #F0181B;
   font-size: 16px;
@@ -529,15 +529,12 @@ li a i {
 }
 
 .logo-container {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0px;
 }
 
-#contact img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -10%);
-}
 
 @media screen and (max-width: 700px) {
     #email {
@@ -610,12 +607,12 @@ footer {
 
 /* about.html */
 #our-story {
-    background: pink;
+    background: #7CCDEA;
 }
 
 #our-story .container {
     height: 750px;
-    margin: 60px auto;
+    margin: 60px auto -60px auto;
     background: #FFEE54;
     border: 6px solid #F0181B;
     border-radius: 45px;
