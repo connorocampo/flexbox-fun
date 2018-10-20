@@ -641,6 +641,11 @@ footer {
     line-height: 32px;
 }
 
+#our-story .container a {
+    text-decoration: underline;
+    color: #000;
+}
+
 .images {
     display: flex;
     justify-content: center;
