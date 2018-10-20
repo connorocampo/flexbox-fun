@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/png" href="https://raw.githubusercontent.com/connorocampo/flexbox-fun/master/img/logo.png"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Charm City Burger Co. | About</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" async>
+</head>
+<body>
+  <!-- header -->
+  <nav class="navbar"><!-- hamburger menu -->
+      <span class="open-slide">
+          <a href="#" onClick="openSlideMenu()">
+              <svg width="30" height="30">
+                  <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+                  <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+                  <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+              </svg>
+          </a>
+      </span>
+      <ul class="navbar-nav">
+          <img src="https://raw.githubusercontent.com/connorocampo/flexbox-fun/master/img/logo.png">
+      </ul>
+  </nav>
+
+    <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onClick="closeSlideMenu()">&times;</a>
+        <a href="#" onClick="closeSlideMenu()">Home</a>
+        <a href="about.html" onClick="closeSlideMenu()">About</a>
+        <a href="#menu" onClick="closeSlideMenu()">Menu</a>
+        <a href="#order-online" onClick="closeSlideMenu()">Order Online</a>
+        <a href="#contact" onClick="closeSlideMenu()">Contact</a>
+    </div><!--- end hamburger menu -->
+
+  <header class="fixednav">
+    <nav class="leftnav">
+        <a href="#home">
+            <img src="https://raw.githubusercontent.com/connorocampo/flexbox-fun/master/img/logo.png">
+            <p>Charm City Burger Co.</p>
+        </a>
+    </nav>
+    <nav class="rightnav">
+        <a href="index.html" class="rightnav">Home</a>
+        <a href="#about" class="rightnav active">About</a>
+        <a href="#menu" class="rightnav">Menu</a>
+        <a href="#order-online" class="rightnav">Order Online</a>
+        <a href="#contact" class="rightnav">Contact</a>
+    </nav>
+  </header>
+
+<!-- contact section -->
+<div id="contact">
+      <div class="container">
+          <ul>
+              <li class="list-title">Address</li>
+              <li>
+                  <p>1136 East Hillsboro Blvd.</p>
+                  <p>Deerfield Beach, FL</p>
+              </li>
+          </ul>
+          <ul>
+              <li class="list-title">Hours</li>
+              <li>
+                  <p>Sun-Thurs: 11am - 10pm</p>
+                  <p>Fri-Sat: 11am - 12am</p>
+              </li>
+          </ul>
+          <ul>
+              <li class="list-title">Contact</li>
+              <li>
+                  <p>(954) 531-0300</p>
+                  <p>info@charmcityburgerco.com</p>
+              </li>
+          </ul>
+          <ul>
+              <li class="list-title follow">Follow</li>
+              <li id="solcia-media">
+                  <a href="#"><i class="fab fa-facebook-square"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-yelp"></i></a>
+              </li>
+          </ul>
+      </div>
+
+    <div id="email">
+      <div class="email-flex">
+        <p>Sign up for our newsletter!</p>
+        <form action="">
+        <input type="email" id="email-input" required>
+        <input type="Submit" id="submit">
+        </form>
+      </div><!-- email-flex ends -->
+    </div><!-- email section ends -->
+
+    <script>
+        function openSlideMenu(){
+            document.getElementById('side-menu').style.width= '250px';
+            document.getElementById('main-hamburger').style.width = '250px';
+        }
+
+        function closeSlideMenu(){
+            document.getElementById('side-menu').style.width= '0px';
+            document.getElementById('main-hamburger').style.width = '0px';
+        }
+    </script>
+    </body>
+    </html>
