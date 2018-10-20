@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" type="image/png" href="https://raw.githubusercontent.com/connorocampo/flexbox-fun/master/img/logo.png"/>
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Charm City Burger Co. | Menu</title>
+  <title>Charm City Burger Co. | Home</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" async>
 </head>
@@ -43,81 +43,13 @@
         </a>
     </nav>
     <nav class="rightnav">
-        <a href="index.html" class="rightnav">Home</a>
+        <a href="index.html" class="rightnav active">Home</a>
         <a href="about.html" class="rightnav">About</a>
-        <a href="menu.html" class="rightnav active">Menu</a>
+        <a href="menu.html" class="rightnav">Menu</a>
         <a href="order-online.html" class="rightnav">Order Online</a>
         <a href="contact.html" class="rightnav">Contact</a>
     </nav>
-  </header>
-
-<!-- square section -->
-<section id="square" class="dark">
-  <h1>Square</h1>
-
-  <div class="flex-container">
-    <div>
-      <h2>Header 2</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium esse facilis dolores, nesciunt magni fugiat ab quod dolore eveniet assumenda ullam numquam fuga cum corporis!</p>
-    </div>
-    <div>
-      <h2>Header 2</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium esse facilis dolores, nesciunt magni fugiat ab quod dolore eveniet assumenda ullam numquam fuga cum corporis!</p>
-    </div>
-  </div><!-- flex-container ends -->
-
-  <div class="square-flex">
-    <div class="shape square">
-      <img src="https://via.placeholder.com/350x250" alt="">
-      <p>Lorem ipsum dolor sit.</p>
-      <a href="#">Link</a>
-      <p class="price">$19.99</p>
-    </div>
-    <div class="shape square">
-      <img src="https://via.placeholder.com/350x250" alt="">
-      <p>Lorem ipsum dolor sit.</p>
-      <a href="#">Link</a>
-      <p class="price">$19.99</p>
-    </div>
-    <div class="shape square">
-      <img src="https://via.placeholder.com/350x250" alt="">
-      <p>Lorem ipsum dolor sit.</p>
-      <a href="#">Link</a>
-      <p class="price">$19.99</p>
-    </div>
-    <div class="shape square">
-      <img src="https://via.placeholder.com/350x250" alt="">
-      <p>Lorem ipsum dolor sit.</p>
-      <a href="#">Link</a>
-      <p class="price">$19.99</p>
-    </div>
-    <div class="shape square">
-      <img src="https://via.placeholder.com/350x250" alt="">
-      <p>Lorem ipsum dolor sit.</p>
-      <a href="#">Link</a>
-      <p class="price">$19.99</p>
-    </div>
-    <div class="shape square">
-      <img src="https://via.placeholder.com/350x250" alt="">
-      <p>Lorem ipsum dolor sit.</p>
-      <a href="#">Link</a>
-      <p class="price">$19.99</p>
-    </div>
-    <div class="shape square">
-      <img src="https://via.placeholder.com/350x250" alt="">
-      <p>Lorem ipsum dolor sit.</p>
-      <a href="#">Link</a>
-      <p class="price">$19.99</p>
-    </div>
-    <div class="shape square">
-      <img src="https://via.placeholder.com/350x250" alt="">
-      <p>Lorem ipsum dolor sit.</p>
-      <a href="#">Link</a>
-      <p class="price">$19.99</p>
-    </div>
-
-  </div>
-</section>
+</header><!-- end header -->
 
 <!-- contact section -->
 <div id="contact">
@@ -153,6 +85,7 @@
       </ul>
     </div>
 
+
     <div id="email">
       <div class="email-flex">
         <p>Sign up for our newsletter!</p>
@@ -161,29 +94,30 @@
         <input type="Submit" id="submit">
         </form>
       </div><!-- email-flex ends -->
-     </div><!-- email section ends -->
- </div><!-- end contact section -->
+    </div><!-- email section ends -->
+</div><!-- end contact section -->
 
- <div class="logo-container">
-  <img src="https://raw.githubusercontent.com/connorocampo/flexbox-fun/master/img/logo.png">
- </div>
+
+    <div class="logo-container">
+     <img src="https://raw.githubusercontent.com/connorocampo/flexbox-fun/master/img/logo.png">
+    </div>
+  </div>
 </div>
-</div>
 
-    <footer>
-        <p>Copyright 2018 &copy;   Charm City Burger Co.</p>
-    </footer>
+<footer>
+    <p>Copyright 2018 &copy;   Charm City Burger Co.</p>
+</footer>
 
-    <script>
-        function openSlideMenu(){
-            document.getElementById('side-menu').style.width= '250px';
-            document.getElementById('main-hamburger').style.width = '250px';
-        }
+<script>
+    function openSlideMenu(){
+        document.getElementById('side-menu').style.width= '250px';
+        document.getElementById('main-hamburger').style.width = '250px';
+    }
 
-        function closeSlideMenu(){
-            document.getElementById('side-menu').style.width= '0px';
-            document.getElementById('main-hamburger').style.width = '0px';
-        }
-    </script>
+    function closeSlideMenu(){
+        document.getElementById('side-menu').style.width= '0px';
+        document.getElementById('main-hamburger').style.width = '0px';
+    }
+</script>
 </body>
 </html>
