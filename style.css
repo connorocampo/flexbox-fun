@@ -609,6 +609,7 @@ footer {
 /* about.html */
 #our-story {
     background: #7CCDEA;
+    padding-top: 100px;
 }
 
 #our-story .container {
@@ -620,8 +621,20 @@ footer {
     width: 950px;
 }
 
+#our-story h1 {
+    border: 6px solid #F0181B;
+    border-radius: 45px;
+    background: #0DA8E0;
+    color: #FFEE54;
+    padding: 20px;
+    width: 130px;
+    margin: 60px auto 0 auto;
+    font-family: courier;
+    text-transform: uppercase;
+}
+
 #our-story .container p {
-    margin: 100px 100px 0 100px;
+    margin: 50px 100px 0 100px;
     font-family: courier;
     font-size: 18px;
     font-weight: bold;
