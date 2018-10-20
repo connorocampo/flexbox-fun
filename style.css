@@ -588,17 +588,20 @@ footer {
 
 /* menu page */
 #menu {
-    background: pink;
+    background: #7CCDEA;
+
 }
 
 .flex-container {
-  display: flex;
-  flex-direction: column;
-  padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 8%;
+    background: pink;
 }
 
 .flex-container h2, .flex-container p {
-  margin: 15px;
+  margin: 15px 0;
 }
 
 .flex-container p {
@@ -607,15 +610,19 @@ footer {
 }
 
 .square-flex {
+  padding: 20px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
 .square {
-  height: 350px;
-  width: 350px;
-  border: 2px solid burlywood;
+    height: 350px;
+    width: 350px;
+    border: 2px solid rgb(252,249,93) !important;
+    border-radius: 10px;
+    background: #F7F2E2;
+    color: #000;
 }
 
 .square p {
@@ -625,9 +632,12 @@ footer {
 }
 
 .square-flex a {
-  border: 1px solid #fff;
-  padding: 10px 20px;
-  margin-left: 10px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: 2px solid #F0181B !important;
+    border-radius: 10px;
+    background: rgb(252,249,93);
+    color: #F0181B;
 }
 
 .square-flex a:hover {
@@ -666,10 +676,9 @@ footer {
 
   .flex-container {
     flex-wrap: wrap;
-    padding: 25px;
   }
 
   .flex-container h2, .flex-container p {
-    margin: 15px;
+    margin: 15px 0;
   }
 }
