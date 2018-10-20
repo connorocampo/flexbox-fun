@@ -548,6 +548,11 @@ li a i {
       align-items: center;
     }
 
+    li a i {
+        font-size: 20px;
+        margin: 12px 5px 0 5px;
+    }
+
 .email-flex form {
       display: block;
   }
