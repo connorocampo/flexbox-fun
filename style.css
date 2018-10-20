@@ -644,3 +644,26 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width: 700px) {
+    #our-story {
+        padding-bottom: 0;
+    }
+
+    #our-story .container {
+        width: 290px;
+        height: 1700px;
+        margin: auto;
+    }
+
+    #our-story .container p {
+        margin: 35px;
+    }
+
+    .images {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
