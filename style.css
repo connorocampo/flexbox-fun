@@ -5,7 +5,6 @@
 }
 
 body{
-  background: #eee;
   font-family: arial;
 }
 
@@ -428,7 +427,7 @@ nav a p {
 
 /* contact section */
 #contact {
-    height: 675px;
+    height: 475px;
     background: #7CCDEA;
     padding: 60px;
 }
@@ -607,4 +606,32 @@ footer {
     text-align: center;
     padding: 10px;
 
+}
+
+/* about.html */
+#our-story {
+    background: pink;
+}
+
+#our-story .container {
+    height: 750px;
+    margin: 60px auto;
+    background: #FFEE54;
+    border: 6px solid #F0181B;
+    border-radius: 45px;
+    width: 950px;
+}
+
+#our-story .container p {
+    margin: 100px 100px 0 100px;
+    font-family: courier;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
