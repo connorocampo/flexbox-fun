@@ -231,14 +231,15 @@ nav a p {
     border: 6px solid #FFEE54;
     border-radius: 45px;
     width: 960px;
-    height: 500px;
+    height: 520px;
     font-family: courier;
 }
 
 .rectangle-text {
     font-weight: bold;
     background: #F7F2E2;
-    /* margin: 25px 15px 0px 0px; */
+    margin: 20px 20px 0px 20px;
+    padding: 1px 0;
 }
 
 .rectangle-text h2 {
