@@ -22,7 +22,7 @@ section {
   padding: 60px 0;
 }
 
-/* hamburger menu */
+/* hamburger nav */
 .navbar {
     background: #7CCDEA;
     overflow: hidden;
@@ -219,32 +219,42 @@ nav a p {
   margin: 15px;
 }
 
-/* rectangle section */
-#rectangle {
-  height: auto;
-}
-
-.rectangle {
-  height: 400px;
-  width: 500px;
-  border: 2px solid burlywood;
-  margin: 90px;
-}
-
-.rectangle-flex {
+/* menu page  */
+#menu {
+  background: #7CCDEA;
   display: flex;
   justify-content: center;
 }
 
+.menu-flex {
+    background: #F0181B;
+    border: 6px solid #FFEE54;
+    border-radius: 45px;
+    width: 960px;
+    height: 500px;
+    font-family: courier;
+}
+
 .rectangle-text {
-  width: 50%;
-  margin: 60px;
+    font-weight: bold;
+    background: #F7F2E2;
+    /* margin: 25px 15px 0px 0px; */
+}
+
+.rectangle-text h2 {
+    margin: 40px;
+    color: #F0181B;
 }
 
 .rectangle-text p {
-  margin: 15px 0;
+  margin: 40px;
   font-size: 20px;
   line-height: 30px;
+  color: #000;
+}
+
+.rectangle-text .id {
+    color: #F0181B;
 }
 
 @media screen and (max-width: 900px) {
@@ -586,8 +596,8 @@ footer {
     }
 }
 
-/* menu page */
-#menu {
+/* order online page */
+#order-online {
     background: #7CCDEA;
 
 }
@@ -619,10 +629,16 @@ footer {
 .square {
     height: 350px;
     width: 350px;
-    border: 2px solid rgb(252,249,93) !important;
+    border: 4px solid #F0181B !important;
     border-radius: 10px;
     background: #F7F2E2;
     color: #000;
+}
+
+.square img {
+    background: pink;
+    margin: 25px 35px;
+    /* margin: 15px; */
 }
 
 .square p {
