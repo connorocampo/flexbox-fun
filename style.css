@@ -38,7 +38,12 @@ section {
     font-size: 17px;
 }
 
-.navbar-nav img {
+.ignore-css {
+    all:unset !important;
+    cursor: pointer !important;
+}
+
+nav img {
     height: 70px;
     margin-left: 30px;
     margin-top: 5px;
