@@ -100,8 +100,7 @@ header {
 }
 
 .rightnav {
-  /* margin: 0 15px;*/
-  margin-right: 5px;
+  margin-right: 25px;
   font-size: 22px;
   font-family: courier;
   font-weight: bold;
@@ -109,7 +108,7 @@ header {
 
 .rightnav  a {
     padding: 8px 18px;
-    margin: 0 4px;
+    margin: 0px;
     border: 2px solid #7CCDEA;
 }
 
@@ -146,13 +145,13 @@ nav a p {
     font-weight: bold;
 }
 
-@media screen and (min-width: 701px) {
+@media screen and (min-width: 1161px) {
     .navbar {
         display: none;
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1160px) {
     header {
         height: 0;
     }
@@ -179,9 +178,9 @@ nav a p {
   height: auto;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1161px) {
     .main {
-        padding: 0;
+        padding-top: 0;
     }
 }
 
@@ -530,17 +529,31 @@ li a i {
   -webkit-appearance: none;
 }
 
+.logo-container {
+    position: relative;
+}
+
 #contact img {
     position: absolute;
-    top: 130%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -55%);
+    transform: translate(-50%, -10%);
 }
 
 @media screen and (max-width: 700px) {
-  .email-flex {
-    flex-direction: column;
-    padding: 10px;
+    .email-flex {
+      display: flex;
+      flex-direction: column;
+      /* justify-content: center;*/
+      align-items: center;
+    }
+
+.email-flex form {
+      display: block;
+  }
+
+  .container ul li {
+      margin: 10px;
   }
 
   #email-input {
@@ -549,6 +562,32 @@ li a i {
 
   #submit {
     -webkit-appearance: none;
+  }
+
+  #contact {
+    height: 900px;
+    background: #7CCDEA;
+  }
+
+  #contact .container {
+    background: #0DA8E0;
+    border-radius: 45px;
+    width: 300px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #email {
+      background: #0DA8E0;
+      color: #fff;
+      width: 250px;
+      height: 200px;
+      margin: 50px auto;
+      border-radius: 45px;
+      padding: 20px;
   }
 }
 
