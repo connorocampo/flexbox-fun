@@ -418,7 +418,7 @@ nav a p {
 #contact {
     height: 375px;
     background: #7CCDEA;
-    padding: 60px;
+    padding-top: 60px;
 }
 
 #contact .container {
