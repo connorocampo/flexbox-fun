@@ -686,13 +686,13 @@ footer {
 }
 
 .square-flex {
-  /* max-width: 1300px; */
-  margin: 0 10%;
+  padding: 0 10%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  background: #7CCDEA;
 }
 
 .square {
@@ -700,8 +700,7 @@ footer {
     width: 280px;
     border: 4px solid #F0181B !important;
     border-radius: 10px;
-    background: #F7F2E2;
-    color: #000;
+    background: #FFFFE3;
 }
 
 .square p {
@@ -753,5 +752,10 @@ footer {
 
   #square {
     padding: 30px;
+  }
+
+  .square-flex{
+      padding: 0;
+      margin: 0;
   }
 }
