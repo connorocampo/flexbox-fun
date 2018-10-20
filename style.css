@@ -530,10 +530,11 @@ li a i {
 }
 
 .logo-container {
+    background: #7CCDEA;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 0px;
+    padding-bottom: 30px;
 }
 
 
