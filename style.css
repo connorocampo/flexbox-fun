@@ -219,89 +219,6 @@ nav a p {
   margin: 15px;
 }
 
-/* square section */
-.flex-container {
-  display: flex;
-  padding: 60px;
-}
-
-.flex-container h2, .flex-container p {
-  margin: 15px;
-}
-
-.flex-container p {
-  font-size: 18px;
-  line-height: 28px;
-}
-
-.square-flex {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.square {
-  height: 350px;
-  width: 350px;
-  border: 2px solid burlywood;
-}
-
-.square p {
-  line-height: 23px;
-  margin: 0 0 5px 0;
-  padding: 20px 10px 10px 10px;
-}
-
-.square-flex a {
-  border: 1px solid #fff;
-  padding: 10px 20px;
-  margin-left: 10px;
-}
-
-.square-flex a:hover {
-  border: 1px solid #333;
-  background: burlywood;
-  color: #333;
-  transition: all 0.5s ease;
-}
-
-.square-flex .price {
-  display: inline-block;
-  padding: 0;
-  margin-left: 195px;
-}
-
-@media screen and (max-width: 700px) {
-  #square {
-    padding: 30px;
-  }
-
-  .square {
-    height: 320px;
-    width: 320px;
-    border: 2px solid burlywood;
-  }
-
-  .square img {
-    height: 220px;
-    width: 320px;
-  }
-
-  .square-flex .price {
-    display: inline-block;
-    margin: 0 0 0px 160px;
-  }
-
-  .flex-container {
-    flex-wrap: wrap;
-    padding: 0;
-  }
-
-  .flex-container h2, .flex-container p {
-    margin: 15px;
-  }
-}
-
 /* rectangle section */
 #rectangle {
   height: auto;
@@ -667,4 +584,92 @@ footer {
         justify-content: center;
         align-items: center;
     }
+}
+
+/* menu page */
+#menu {
+    background: pink;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+}
+
+.flex-container h2, .flex-container p {
+  margin: 15px;
+}
+
+.flex-container p {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.square-flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.square {
+  height: 350px;
+  width: 350px;
+  border: 2px solid burlywood;
+}
+
+.square p {
+  line-height: 23px;
+  margin: 0 0 5px 0;
+  padding: 20px 10px 10px 10px;
+}
+
+.square-flex a {
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  margin-left: 10px;
+}
+
+.square-flex a:hover {
+  border: 1px solid #333;
+  background: burlywood;
+  color: #333;
+  transition: all 0.5s ease;
+}
+
+.square-flex .price {
+  display: inline-block;
+  padding: 0;
+  margin-left: 195px;
+}
+
+@media screen and (max-width: 700px) {
+  #square {
+    padding: 30px;
+  }
+
+  .square {
+    height: 320px;
+    width: 320px;
+    border: 2px solid burlywood;
+  }
+
+  .square img {
+    height: 220px;
+    width: 320px;
+  }
+
+  .square-flex .price {
+    display: inline-block;
+    margin: 0 0 0px 160px;
+  }
+
+  .flex-container {
+    flex-wrap: wrap;
+    padding: 25px;
+  }
+
+  .flex-container h2, .flex-container p {
+    margin: 15px;
+  }
 }
