@@ -211,6 +211,7 @@ nav a p {
     background: #698491;
     border: 6px solid rgb(109,165,211);
     color: #fff;
+    transition: 0.3s;
 }
 
 @media screen and (max-width: 700px) {
