@@ -165,18 +165,6 @@ nav a p {
   padding-top: 50px;
 }
 
-.light {
-  background: #eee;
-  color: #333;
-  height: 400px;
-}
-
-.dark {
-  background: #333;
-  color: #eee;
-  height: auto;
-}
-
 @media screen and (max-width: 1161px) {
     .main {
         padding-top: 0;
