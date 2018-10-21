@@ -349,9 +349,35 @@ nav a p {
   }
 }
 
-
-
 /* contact section */
+#contact-form {
+    background: #7CCDEA;
+    padding-bottom: 0;
+}
+
+#contact-form .container {
+    background: #FFEE54;
+    color: #F0181B;
+    border: 6px solid #F0181B;
+    border-radius: 45px;
+    width: 950px;
+    margin: 0 auto;
+}
+
+#contact-form h2 {
+    margin: 40px auto;
+    background: #F0181B;
+    color: #FFEE54;
+    border-radius: 35px;
+    width: 220px;
+    padding: 20px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: courier;
+    font-size: 36px;
+}
+
+
 #contact {
     height: 375px;
     background: #7CCDEA;
