@@ -381,7 +381,7 @@ nav a p {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-bottom: 35px;
+    margin: 65px 35px 35px 35px;
 }
 
 .content label {
