@@ -390,13 +390,13 @@ nav a p {
     font-size: 18px;
 }
 
-form {
+.top-form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-form input {
+.top-form input {
     border: none;
     border-radius: 15px;
     margin: 3px 0;
@@ -404,12 +404,12 @@ form input {
     font-family: courier;
 }
 
-form textarea {
+.top-form textarea {
     border-radius: 20px;
     margin: 3px 0;
 }
 
-form #send {
+.top-form #send {
     background: #F0181B;
     color: #FFEE54;
     border: none;
@@ -508,9 +508,6 @@ li a i {
 #submit {
   padding: 10px 20px;
   margin-left: 20px;
-  border: 1px solid burlywood;
-  background: burlywood;
-  color: #fff;
   border: 6px solid #F0181B;
   border-radius: 45px;
   background: rgb(252,249,93);
