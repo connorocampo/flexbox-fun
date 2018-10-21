@@ -267,11 +267,12 @@ nav a p {
 .menu-items {
     display: flex;
     flex-direction: column;
+
 }
 
 .menu-items img {
     float: left;
-    margin-right: 25px;
+    margin: 0 28px;
 }
 
 .menu-items p {
