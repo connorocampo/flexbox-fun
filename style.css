@@ -267,7 +267,6 @@ nav a p {
 .menu-items {
     display: flex;
     flex-direction: column;
-
 }
 
 .menu-items img {
@@ -301,15 +300,19 @@ nav a p {
       border: 6px solid #FFEE54;
       border-radius: 45px;
       width: 300px;
-      height: 3175px;
+      height: 3025px;
       font-family: courier;
+  }
+
+  .menu-items img {
+      margin-left: -5px;
   }
 
   .menu-items p {
       font-size: 16px;
   }
 
-  .burger p:nth-child(1) {
+  .burger p:nth-child(1) {s
       display: flex;
       flex-direction: column;
       width: 295px;
@@ -318,7 +321,6 @@ nav a p {
   .burger .burger-title {
     flex-wrap: wrap;
     width: 270px;
-    margin-top: 15px;
   }
 
   .burger p:nth-child(2) {
