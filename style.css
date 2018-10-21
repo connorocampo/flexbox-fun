@@ -416,6 +416,7 @@ nav a p {
     border: none;
     width: 50px;
     margin-left: auto;
+    -webkit-appearance: none;
 }
 
 #contact {
