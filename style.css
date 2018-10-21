@@ -349,62 +349,7 @@ nav a p {
   }
 }
 
-/* circle section */
-.circle {
-  height: 250px;
-  width: 250px;
-  border: 2px solid burlywood;
-  border-radius: 50%;
-}
 
-.circle-flex {
-  display: flex;
-  margin: 50px;
-}
-
-#circle .profile {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid pink;
-  height: 800px;
-  width: 400px;
-}
-
-.circle-flex img {
-  /* insert margin here for individual lengh cards */
-}
-
-.circle-flex h2 {
-  margin: 60px 0 30px 0;
-}
-
-.circle-flex p {
-  font-size: 20px;
-  text-align: justify;
-  line-height: 30px;
-  margin: 30px;
-}
-
-@media screen and (max-width: 890px) {
-  #circle {
-    padding: 30px;
-  }
-
-  .circle-flex {
-    flex-wrap: wrap;
-    margin: 0;
-  }
-
-  .profile {
-    margin-top: 50px;
-  }
-
-  .circle-flex h2 {
-    margin: 60px 0 15px 0;
-  }
-}
 
 /* contact section */
 #contact {
