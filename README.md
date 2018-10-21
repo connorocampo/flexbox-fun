@@ -1,6 +1,6 @@
 # flexbox-fun
 
-What started out as a fun flexbox project to practice flexbox properties, values and layouts has turned into a copy/redesign of one of my favorite local burger spots in Deerfield, Fl.
+A fun copy/redesign of a website of one of my favorite local burger spots in Deerfield, FL.
 
 [Before: Their current site](https://www.charmcityburgerco.com/)
 
