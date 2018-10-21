@@ -377,6 +377,45 @@ nav a p {
     font-size: 36px;
 }
 
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 35px;
+}
+
+.content label {
+    font-family: courier;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+form input {
+    border: none;
+    border-radius: 15px;
+    margin: 3px 0;
+    padding: 8px;
+    font-family: courier;
+}
+
+form textarea {
+    border-radius: 20px;
+    margin: 3px 0;
+}
+
+form #send {
+    background: #F0181B;
+    color: #FFEE54;
+    border: none;
+    width: 50px;
+    margin-left: auto;
+}
 
 #contact {
     height: 375px;
